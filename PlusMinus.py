@@ -1,13 +1,3 @@
-#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
-# Complete the plusMinus function below.
-def plusMinus(arr):
     arrLength=len(arr)
     countminus=0
     countplus=0
@@ -25,9 +15,3 @@ def plusMinus(arr):
     print("{0:.6f}".format(countzero/arrLength))
 
 
-if __name__ == '__main__':
-    n = int(input())
-
-    arr = list(map(int, input().rstrip().split()))
-
-    plusMinus(arr)
