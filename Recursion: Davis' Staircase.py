@@ -11,8 +11,5 @@ def stepPerms(n):
 
   return sum
 
-print(stepPerms(111))
+print(stepPerms(1000))
 
-# 4 5  6  7  8   9    10
-# 7 13 24 44 81  149  274
-#   6  11 20 37 68   125
